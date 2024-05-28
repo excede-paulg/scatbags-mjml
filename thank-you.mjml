@@ -260,7 +260,7 @@
           <tr>
             <td>
               <!-- Your Details -->
-              <table width="100%" style="border-collapse: separate; border-spacing: 0; border: solid 1px #ccc !important; border-radius: 10px !important; margin-bottom: 20px !important;">
+              <table width="100%" style="border-collapse: separate; border-spacing: 0; border: none !important; border-radius: 10px !important; margin-bottom: 20px !important; background: #FFFFFF !important;">
                 <tr>
                   <td style="padding:20px 16px 20px 16px !important;">
                     <h2>Your Details</h2>
@@ -277,7 +277,7 @@
                 </tr>
               </table>
               <!-- Delivery Address -->
-              <table width="100%" style="border-collapse: separate; border-spacing: 0; border: solid 1px #ccc !important; border-radius: 10px !important; margin-bottom: 20px !important;">
+              <table width="100%" style="border-collapse: separate; border-spacing: 0; border: none !important; border-radius: 10px !important; margin-bottom: 20px !important; background: #FFFFFF !important;">
                 <tr>
                   <td style="padding:20px 16px 20px 16px !important;">
                     <h2>Delivery Address</h2>
@@ -308,7 +308,7 @@
           <tr>
             <td>
               <!-- Your Order -->
-              <table width="100%" style="border-collapse: separate; border-spacing: 0; border: solid 1px #ccc !important; border-radius: 10px !important; margin-bottom: 20px !important;">
+              <table width="100%" style="border-collapse: separate; border-spacing: 0; border: none !important; border-radius: 10px !important; margin-bottom: 20px !important; background: #FFFFFF !important;">
                 <tr>
                   <td style="padding:20px 16px 0 16px !important;">
                     <h2 style="padding-bottom: 16px !important">Your Order</h2>
