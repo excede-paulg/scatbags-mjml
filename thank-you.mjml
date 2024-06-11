@@ -219,9 +219,9 @@
       <!-- Thank you -->
     </mj-raw>
     <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" padding="0px 16px 0px 16px">
-      <mj-column border="none" vertical-align="top" width="80%" background-color="#FFFFFF" padding="16px 16px 16px 16px">
+      <mj-column border="none" vertical-align="top" width="75%" background-color="#FFFFFF" padding="16px 16px 16px 16px">
         <mj-text align="center" font-family="Public Sans" font-size="32px" font-weight="bold" font-style="normal" padding="10px 25px 10px 25px">Thank you for your order!</mj-text>
-        <mj-text align="left" css-class="thank-you-text" padding="10px 25px 10px 25px">A confirmation has been sent to your email address.</mj-text>
+        <mj-text align="center" font-family="Public Sans" font-size="24px" font-style="italic" color="#4B4B4B" font-weight="normal" line-height="auto" padding="0px 0px 0px 0px">A confirmation has been sent to your email address. You will receive tracking updates via email and text.</mj-text>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -233,8 +233,8 @@
         <mj-text align="left" css-class="order-info-text" padding="10px 25px 10px 25px">1000092</mj-text>
       </mj-column>
       <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 8px 0px 8px">
-        <mj-text align="left" css-class="order-info-heading" padding="10px 25px 10px 25px">Order Date</mj-text>
-        <mj-text align="left" css-class="order-info-text" padding="10px 25px 10px 25px">14/09/2023 9:14am</mj-text>
+        <mj-text align="center" line-height="auto" font-style="normal" font-size="20px" font-family="Public Sans" color="#4B4B4B" font-weight="normal" padding="10px 25px 10px 25px">ORDER DATE</mj-text>
+        <mj-text align="center" color="#000000" font-family="Public Sans" font-size="25px" line-height="auto" font-weight="bold" padding="10px 25px 10px 25px">14/09/2023 9:14am</mj-text>
       </mj-column>
       <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 8px 0px 8px">
         <mj-text align="left" css-class="order-info-heading" padding="10px 25px 10px 25px">Order Total</mj-text>
