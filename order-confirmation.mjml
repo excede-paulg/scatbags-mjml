@@ -25,11 +25,12 @@
         border-left: solid 1px #ccc !important;
         border-right: solid 1px #ccc !important;
         border-radius: 10px 10px 0 0 !important;
+        margin-top: 40px !important;
         padding: 0 0 4px 0 !important;
       }
 
       .icon-image img {
-        margin-top: -42px !important;
+        margin-top: -54px !important;
       }
 
       .thank-you {
@@ -57,7 +58,6 @@
         font-size: 16px !important;
         line-height: 1.25 !important;
         text-align: center !important;
-        padding-bottom: 20px !important;
         text-align: center !important;
       }
 
@@ -74,19 +74,14 @@
         font-size: 14px !important;
         font-weight: 400 !important;
         letter-spacing: 0.025em !important;
-        text-align: center !important;
-        padding-bottom: 6px !important;
-        text-align: center !important;
         text-transform: uppercase !important;
       }
 
       .order-info-text div {
-        color: #343A40 !important;
+        color: #000 !important;
         font-family: "Public Sans", "Helvetica", "Arial", sans-serif !important;
         font-size: 20px !important;
         font-weight: 600 !important;
-        padding-bottom: 20px !important;
-        text-align: center !important;
       }
 
       .tracking {
@@ -150,7 +145,7 @@
       }
 
       h2 {
-        color: #343A40 !important;
+        color: #000 !important;
         display: inline-block !important;
         font-family: "Public Sans", "Helvetica", "Arial", sans-serif !important;
         font-size: 23px !important;
@@ -175,15 +170,15 @@
       .text-xl {
         color: #343A40 !important;
         font-family: "Public Sans", "Helvetica", "Arial", sans-serif !important;
-        font-size: 18px !important;
-        line-height: 20px !important;
+        font-size: 16px !important;
+        line-height: 21px !important;
       }
 
       .text-lg {
         color: #686868 !important;
         font-family: "Public Sans", "Helvetica", "Arial", sans-serif !important;
         font-size: 15px !important;
-        line-height: 20px !important;
+        line-height: 18px !important;
       }
 
       .text-md {
@@ -232,7 +227,7 @@
     </mj-raw>
     <mj-section background-repeat="no-repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" border-radius="10px 10px 0 0" padding="0px 16px 0px 16px">
       <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
-        <mj-image align="center" height="40px" src="images/icons/icon-thankyou.png" css-class="icon-image" border="none" border-radius="50%" width="40px" padding="   "></mj-image>
+        <mj-image align="center" height="80px" src="images/icons/icon-thankyou.png" css-class="icon-image" border="none" border-radius="50%" width="80px" padding="20px 25px 10px 25px"></mj-image>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -240,37 +235,30 @@
     </mj-raw>
     <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" padding="0px 16px 0px 16px">
       <mj-column border="none" vertical-align="top" width="80%" background-color="#FFFFFF" padding="16px 16px 16px 16px">
-        <mj-text align="center" font-family="Public Sans" font-size="32px" font-weight="bold" font-style="normal" padding="0px 25px 0px 25px" line-height="1">Thank you for your order!</mj-text>
-        <mj-text align="left" css-class="thank-you-text" padding="10px 25px 10px 25px">A confirmation has been sent to your email address.</mj-text>
+        <mj-text align="center" font-family="Public Sans" font-size="32px" font-weight="bold" font-style="normal" line-height="1" padding="0px 25px 0px 25px">Thank you for your order!</mj-text>
+        <mj-text align="center" css-class="thank-you-text" font-family="Public Sans" font-size="24px" line-height="1" letter-spacing="0" font-weight="100" font-style="italic" padding="10px 0px 20px 0px">You will receive tracking updates via email and text.</mj-text>
       </mj-column>
     </mj-section>
     <mj-raw>
       <!-- Order info -->
     </mj-raw>
-    <mj-section background-repeat="no-repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" padding="0px 16px 0px 16px">
-      <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 8px 0px 8px">
-        <mj-text align="left" css-class="order-info-heading" padding="10px 25px 10px 25px">Order Number</mj-text>
-        <mj-text align="left" css-class="order-info-text" padding="10px 25px 10px 25px">1000092</mj-text>
+    <mj-section background-repeat="no-repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" border-radius="0 0 10px 10px" padding="0px 20px 25px 20px">
+      <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 0px 0px 0px">
+        <mj-text align="left" css-class="order-info-heading" padding="0px 0px 0px 0px">Order Number</mj-text>
+        <mj-text align="left" css-class="order-info-text" line-height="1.2" padding="0px 0px 0px 0px">1000092</mj-text>
       </mj-column>
-      <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 8px 0px 8px">
-        <mj-text align="left" css-class="order-info-heading" padding="10px 25px 10px 25px">Order Date</mj-text>
-        <mj-text align="left" css-class="order-info-text" padding="10px 25px 10px 25px">14/09/2023 9:14am</mj-text>
+      <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 0px 0px 0px">
+        <mj-text align="center" css-class="order-info-heading" padding="0px 0px 0px 0px">Order Date</mj-text>
+        <mj-text align="center" css-class="order-info-text" line-height="1.2" font-family="Public Sans" font-size="25px" padding="0px 0px 0px 0px">14/09/2023 9:14am</mj-text>
       </mj-column>
-      <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 8px 0px 8px">
-        <mj-text align="left" css-class="order-info-heading" padding="10px 25px 10px 25px">Order Total</mj-text>
-        <mj-text align="left" css-class="order-info-text" padding="10px 25px 10px 25px">$235.42</mj-text>
+      <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 0px 0px 0px">
+        <mj-text align="right" css-class="order-info-heading" padding="0px 0px 0px 0px">Order Total</mj-text>
+        <mj-text align="right" css-class="order-info-text" line-height="1.2" padding="0px 0px 0px 0px">$235.42</mj-text>
       </mj-column>
     </mj-section>
     <mj-raw>
       <!-- Tracking -->
     </mj-raw>
-    <mj-section background-repeat="no-repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" border-radius="0 0 10px 10px" padding="0px 16px 0px 16px">
-      <mj-column border="none" vertical-align="top" width="80%" padding="16px 16px 16px 16px">
-        <mj-text align="left" css-class="tracking-heading" padding="10px 25px 10px 25px">Next Delivery Scheduled</mj-text>
-        <mj-text align="left" css-class="tracking-text" padding="10px 25px 10px 25px">Thursday 4th October</mj-text>
-        <mj-text align="left" css-class="tracking-subtext" padding="10px 25px 10px 25px">You will receive tracking updates via email and&nbsp;text.</mj-text>
-      </mj-column>
-    </mj-section>
     <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" padding="20px 0px 20px 0px">
       <mj-raw>
         <!-- Left Column -->
@@ -280,35 +268,33 @@
           <tr>
             <td>
               <!-- Your Details -->
-              <table width="100%" style="border-collapse: separate; border-spacing: 0; border: solid 1px #ccc !important; border-radius: 10px !important; margin-bottom: 20px !important;">
+              <table width="100%" style="border-collapse: separate; border-spacing: 0; border-radius: 10px !important; background: #fff !important; margin-bottom: 20px !important;">
                 <tr>
                   <td style="padding:20px 16px 20px 16px !important;">
-                    <h2>Your Details</h2>
+                    <h2 style="font-weight: 900 !important;">Your Details</h2>
                     <div>
-                      <span class="text-lg" style="color: #343A40 !important;"><strong>Michelle Paralexica</strong></span>
+                      <span class="text-lg" style="color: #000 !important;"><strong>Michelle Paralexica</strong></span>
                     </div>
                     <div>
-                      <span><img width="20px" height="20px" style="padding-right: 4px !important; vertical-align: middle !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/icon-phone.png" /></span><span class="text-lg" style="vertical-align: middle !important;">+61433876305</span>
+                      <span class="text-lg" style="color: #4B4B4B !important; vertical-align: middle !important;">+61433876305</span>
                     </div>
                     <div>
-                      <span><img width="20px" height="20px" style="padding-right: 4px !important; vertical-align: middle !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/icon-mail.png" /></span><span class="text-lg" style="vertical-align: middle !important;">michell.parra@hotmail.com.au</span>
+                      <span class="text-lg" style="color: #4B4B4B !important; vertical-align: middle !important;">michell.parra@hotmail.com.au</span>
                     </div>
                   </td>
                 </tr>
               </table>
               <!-- Delivery Address -->
-              <table width="100%" style="border-collapse: separate; border-spacing: 0; border: solid 1px #ccc !important; border-radius: 10px !important; margin-bottom: 20px !important;">
+              <table width="100%" style="border-collapse: separate; border-spacing: 0; border-radius: 10px !important; background: #fff !important; margin-bottom: 20px !important;">
                 <tr>
                   <td style="padding:20px 16px 20px 16px !important;">
-                    <h2>Delivery Address</h2>
+                    <h2 style="font-weight: 900 !important;">Delivery Address</h2>
                     <div>
                       <span class="text-lg">33 Francis Street, Corinda</span>
                     </div>
                     <div>
                       <span class="text-lg">Brisbane, QLD, Australia</span>
-                      <div style="padding-top: 10px">
-                        <span class="text-lg">DELIVER TO FRONT OF PROPERTY</span>
-                      </div>
+                      <!-- Google Map feed (static image for now)-->
                       <div style="padding-top: 20px;">
                         <img style="width: 100% !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/map.png" />
                       </div>
@@ -328,126 +314,110 @@
           <tr>
             <td>
               <!-- Your Order -->
-              <table width="100%" style="border-collapse: separate; border-spacing: 0; border: solid 1px #ccc !important; border-radius: 10px !important; margin-bottom: 20px !important;">
+              <table width="100%" style="border-collapse: separate; border-spacing: 0; border-radius: 10px !important; background: #fff !important; margin-bottom: 20px !important;">
                 <tr>
                   <td style="padding:20px 16px 0 16px !important;">
-                    <h2 style="padding-bottom: 16px !important">Your Order</h2>
+                    <h2 style="text-transform: uppercase !important;  font-weight: 900 !important; padding-bottom: 16px !important;">Your Order</h2>
                   </td>
                 </tr>
-                <!-- Product 1 -->
+                <!-- Scatbags order [comments in code] -->
                 <tr>
-                  <td style="padding: 0 16px 16px 16px">
+                  <td style="padding: 0 16px">
                     <div style="display:inline-block !important; vertical-align: top !important; width: 30% !important;">
-                      <img style="max-width: 150px !important; width: 100% !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/image-01.png" />
+                      <!-- Image would be replaced with a dynamic version -->
+                      <img style="max-width: 150px !important; width: 100% !important; border-radius: 8px !important;" src="images/product-scatbags.jpg" />
                     </div>
                     <div style="display:inline-block !important; width: 64% !important; padding-left: 4%;">
                       <div style="display:inline !important;">
-                        <h3>Grass Delivery</h3>
-                        <div class="text-sm">Fresh Grass Replacement</div>
-                        <div class="text-sm">Delivered to You</div>
-                        <div class="text-sm" style="text-decoration: underline">Every 3 Weeks</div>
-                        <div style="padding-top: 10px">
-                          <span class="text-md" style="color: #343A40 !important; display: inline-block !important; width: 50% !important;">QTY: 1</span>
-                          <span class="text-md" style="color: #343A40 !important; display: inline-block !important; width: 47% !important; text-align: right !important;">
-                            <span style="vertical-align: middle !important">
-                              <img width="18px" height="15px" style="padding-top: 1px !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/icon-loop.png" />
-                            </span>
-                            <span>$39.95</span>
-                          </span>
-                        </div>
+                        <!-- Order summary block [this data changes based on the customer order] -->
+                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 18px !important; font-weight: normal !important; color: #4B4B4B !important;">2 boxes</div>
+                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 18px !important; font-weight: normal !important; color: #4B4B4B !important;">8 rolls</div>
+                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 18px !important; font-weight: normal !important; color: #4B4B4B !important;">120 bags</div>
+                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 18px !important; font-weight: normal !important; color: #4B4B4B !important;">Every 4 weeks</div>
                       </div>
                     </div>
+                    <hr style="margin: 24px 0 15px 0 !important;">
+                    </hr>
                   </td>
                 </tr>
-                <!-- Product 2 -->
-                <tr>
-                  <td style="padding: 0 16px 16px 16px">
-                    <div style="display:inline-block !important; vertical-align: top !important; width: 30% !important;">
-                      <img style="max-width: 150px !important; width: 100% !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/image-02.png" />
-                    </div>
-                    <div style="display:inline-block !important; width: 64% !important; padding-left: 4%;">
-                      <div style="display:inline !important;">
-                        <h3>Scatbags</h3>
-                        <div class="text-sm">Planet Freindly Poo Bags</div>
-                        <div class="text-sm">60 Bags Per Box</div>
-                        <div class="text-sm" style="text-decoration: underline">Every 3 Weeks</div>
-                        <div style="padding-top: 10px">
-                          <span class="text-md" style="color: #343A40 !important; display: inline-block !important; width: 50% !important;">QTY: 1</span>
-                          <span class="text-md" style="color: #343A40 !important; display: inline-block !important; width: 47% !important; text-align: right !important;">
-                            <span style="vertical-align: middle !important">
-                              <img width="18px" height="15px" style="padding-top: 1px !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/icon-loop.png" />
-                            </span>
-                            <span>$18.00</span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <!-- Product 3 -->
-                <tr>
-                  <td style="padding: 0 16px 16px 16px">
-                    <div style="display:inline-block !important; vertical-align: top !important; width: 30% !important;">
-                      <img style="max-width: 150px !important; width: 100% !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/image-03.png" />
-                    </div>
-                    <div style="display:inline-block !important; width: 64% !important; padding-left: 4%;">
-                      <div style="display:inline !important;">
-                        <h3>Potty Plant</h3>
-                        <div class="text-sm">Reusable Tray - White</div>
-                        <div class="text-sm">Grass Required</div>
-                        <div class="text-sm" style="text-decoration: underline">Weekly Rental</div>
-                        <div style="padding-top: 10px">
-                          <span class="text-md" style="color: #343A40 !important; display: inline-block !important; width: 50% !important;">QTY: 1</span>
-                          <span class="text-md" style="color: #343A40 !important; display: inline-block !important; width: 47% !important; text-align: right !important;">
-                            <span style="vertical-align: middle !important">
-                              <img width="18px" height="15px" style="padding-top: 1px !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/icon-loop.png" />
-                            </span>
-                            <span>$18.00</span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <!-- Payment Details -->
+
+                <!-- Quantity, shipping, totals summary block -->
                 <tr>
                   <td style="padding: 0 16px 20px 16px !important;">
-                    <div style="border-top: solid 1px #ccc; margin-top: 30px; padding-top: 20px !important; padding-bottom: 20px !important">
-                      <div class="text-lg" style="text-transform: uppercase !important; line-height: 1.5 !important">
-                        <span style="display: inline-block !important; width: 50% !important;">Subtotal</span>
-                        <span style="display: inline-block !important; width: 47% !important; text-align: right !important;">$240.42</span>
-                      </div>
-                      <div class="text-lg" style="text-transform: uppercase !important; line-height: 1.5 !important">
-                        <span style="display: inline-block !important; width: 50% !important;">Discount</span>
-                        <span style="display: inline-block !important; width: 47% !important; text-align: right !important;">$5.00</span>
-                      </div>
-                      <div class="text-lg" style="text-transform: uppercase !important; line-height: 1.5 !important">
-                        <span style="display: inline-block !important; width: 50% !important;">Free Shipping</span>
-                        <span style="display: inline-block !important; width: 47% !important; text-align: right !important;">$0.00</span>
-                      </div>
-                      <div class="text-xl" style="color: #343A40 !important; font-weight: 600 !important; line-height: 40px !important;">
-                        <span style="display: inline-block !important; width: 50% !important; text-transform: uppercase !important;">Total</span>
-                        <span style="display: inline-block !important; width: 47% !important; text-align: right !important;">$235.42</span>
-                      </div>
-                      <!-- Payment Method -->
-                      <div style="text-align: center !important; padding-top: 16px !important;">
-                        <span style="display: inline-block; margin: auto !important;">
-                          <span style="display: inline-block !important; vertical-align: middle !important; width: 64px !important; margin: 4px">
-                            <img style="width: 64px !important; vertical-align: middle !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/logo-paypal.png" />
+                    <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 18px !important; font-weight: normal !important; color: #4B4B4B !important;">
+                      <span style="color: #343A40 !important; display: inline-block !important; width: 50% !important;">2 x $15.00</span>
+                      <span style="color: #343A40 !important; display: inline-block !important; width: 47% !important; text-align: right !important;">
+                        <span style="vertical-align: middle !important">
+                          <img width="21px" height="15px" style="padding-right: 10px !important;" src="images/icons/icon-subscription.png" />
+                        </span>
+                        <span style="color: #343A40 !important; text-align: right !important;">$30.00</span>
+                      </span>
+                    </div>
+
+                    <div style="text-transform: uppercase !important; line-height: 1.2 !important;  font-size: 18px !important; font-weight: normal !important; color: #4B4B4B !important;">
+                      <span style="display: inline-block !important; width: 50% !important;">Free Shipping</span>
+                      <span style="display: inline-block !important; width: 47% !important; text-align: right !important;">$0.00</span>
+                    </div>
+
+                    <div class="text-xl" style="line-height: 1.2 !important; font-size: 25px !important; font-weight: 700 !important; color: #4B4B4B !important;">
+                      <span style="display: inline-block !important; width: 50% !important; text-transform: uppercase !important;">Total</span>
+                      <span style="display: inline-block !important; width: 47% !important; text-align: right !important;">$235.42</span>
+                    </div>
+
+                    <!-- Order status -->
+                    <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 18px !important; font-weight: normal !important; color: #4B4B4B !important; margin-top: 30px !important;">
+                      <span style="display: inline-block !important; width: 50% !important;">Status</span>
+
+                      <!-- ALL badge instances styled up -->
+                      <!-- Paid -->
+                      <span style="display: inline-block !important; float: right !important; clear: both !important; width: inherit !important; background-color: #DDEAD9; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Paid</span>
+
+                      <!-- Delivered -->
+                      <span style="display: inline-block !important; float: right !important; clear: both !important; width: inherit !important; background-color: #DDEAD9 !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Delivered</span>
+
+                      <!-- Paused -->
+                      <span style="display: inline-block !important; float: right !important; clear: both !important; width: inherit !important; background-color: #D3ECFF; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Paused</span>
+
+                      <!-- Cancelled -->
+                      <span style="display: inline-block !important; float: right !important; clear: both !important; width: inherit !important; background-color: #FFDADA; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Cancelled</span>
+
+                      <!-- Refunded -->
+                      <span style="display: inline-block !important;  float: right !important; clear: both !important;width: inherit !important; background-color: #FFE2C6; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Refunded</span>
+
+                      <!-- Part-refunded -->
+                      <span style="display: inline-block !important;  float: right !important; clear: both !important; width: inherit !important; background-color: #FFE2C6; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Part-refunded</span>
+
+                    </div>
+
+                    <!-- Payment Method block -->
+                    <div style="text-align: center !important; display: block !important; clear: both !important; padding-top: 15px !important;">
+                      <span style="display: inline-block; margin: auto !important;">
+                        <span style="display: inline-block !important; vertical-align: middle !important; width: 64px !important; margin: 4px">
+                          <img style="width: 64px !important; vertical-align: middle !important;" src="https://raw.githubusercontent.com/rhettparkinson/images/main/logo-paypal.png" />
+                        </span>
+                        <span style="display: inline-block !important; vertical-align: middle !important;text-align: left !important;">
+                          <span style="display: block !important; color: #343A40 !important; font-size: 15px !important; font-weight: 600 !important; letter-spacing: 0.025em; text-transform: uppercase !important;">
+                            Paid With PayPal
                           </span>
-                          <span style="display: inline-block !important; vertical-align: middle !important;text-align: left !important;">
-                            <span style="display: block !important; color: #343A40 !important; font-size: 15px !important; font-weight: 600 !important; letter-spacing: 0.025em; text-transform: uppercase !important;">
-                              Paid With PayPal
-                            </span>
-                            <span style="display: block !important; color: #343A40 !important; font-size: 15px;">
-                              mrabuzz@meeemail.com
-                            </span>
+                          <span style="display: block !important; color: #343A40 !important; font-size: 15px;">
+                            mrabuzz@meeemail.com
                           </span>
                         </span>
-                      </div>
+                      </span>
+                    </div>
                     </div>
                   </td>
                 </tr>
+
+                <!-- Bottom row [contains different messaging, CTA's] -->
+                <tr style="background-color: #FFF0B2 !important;">
+                  <td style="padding: 25px !important; border-radius: 0 0 10px 10px !important; text-align: center !important;">
+                    <h3 style="font-weight: 200 !important; font-size: 20px !important; line-height: 1.15 !important; font-style: italic !important; text-transform: none !important;">Want regular Scatbag deliveries?</h3>
+                    <!-- CTA link [Change as needed] -->
+                    <a style="display: inline-block !important; margin: 10px 0 !important; border: 3.5px solid #000 !important; border-radius: 5px !important; padding: 16px 24px !important; color: #000 !important; text-transform: uppercase !important; font-weight: 700 !important; font-size: 24px !important; text-decoration: none !important; background-color: #fff !important; justify-content: center !important;" href="#">Subscribe now</a>
+                  </td>
+                </tr>
+
               </table>
             </td>
           </tr>
@@ -455,23 +425,28 @@
       </mj-column>
     </mj-section>
     <mj-raw>
-      <!-- Footer -->
+      <!-- Footer section -->
+      <footer style="background: #000000 !important; padding: 50px 15px !important; font-weight: 200 !important; line-height: 1.4 !important;">
+        <!-- Socials -->
+        <span style="width: 100% !important; display: inline-block !important; text-align: center !important;">
+          <img style="width: 40px !important; height: 40px !important; margin-right: 25px !important;" src="images/icons/icon-ins.png" />
+          <img style="width: 22px !important; height: 40px !important; margin-left: 25px !important;" src="images/icons/icon-fb.png" />
+        </span>
+
+        <span style="display: block !important; margin-top: 30px !important; color: #FFFFFF !important; font-style: italic !important; font-size: 16px !important; text-align: center;">No longer want to receive these emails?</span>
+        <span style="display: block !important; color: #FFFFFF !important; font-style: italic !important; font-size: 16px !important; text-align: center; text-decoration: underline !important;">{% unsubscribe %}</span>
+
+        <!-- Links to website pages -->
+        <ul style="margin-top: 20px !important; color: #FFFFFF !important; font-style: italic !important; font-weight: 200 !important; line-height: 1.4 !important; font-size: 16px !important; display: block !important; text-align: center !important; padding: 0 !important;">
+          <li style="display: inline !important; padding-right: 10px !important;"><a href="#" style="text-decoration: underline !important; color: #FFFFFF !important;">FAQ</a></li>
+          <li style="display: inline !important;">&#124;</li>
+          <li style="display: inline !important; padding-left: 10px !important;"><a href="#" style="text-decoration: underline !important; color: #FFFFFF !important;">Contact</a></li>
+        </ul>
+
+        <!-- Signoff -->
+        <img src="images/logo-footeremail.png" width="75" height="56" style="display: block !important; padding-top: 10px !important; margin: 0 auto !important;" />
+        <p style="font-style: italic !important; text-align: center !important;">&copy; 2024 Scatbags</p>
+      </footer>
     </mj-raw>
-    <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" padding="0px 0px 80px 0px">
-      <mj-column border="none" vertical-align="top" width="49%" padding="0px 0px 20px 0px">
-        <mj-button align="center" background-color="#FFEDC9" color="#343A40" font-weight="600" border-radius="6px" line-height="20px" target="_blank" vertical-align="middle" border="solid 2px #343A40" text-align="center" href="#" font-family="Public Sans, Helvetica, Arial, sans-serif" font-size="13px" text-transform="uppercase" width="100%" padding="0px 0px 0px 0px"><span style="display: inline-block; padding: 5px 0px !important;">Prepare for Potty Plant</span></mj-button>
-      </mj-column>
-      <mj-column border="none" vertical-align="top" width="2%" padding="0px 0px 0px 0px"></mj-column>
-      <mj-column border="none" vertical-align="top" width="49%" padding="0px 0px 20px 0px">
-        <mj-button align="center" background-color="#FFEDC9" color="#343A40" font-weight="600" border-radius="6px" line-height="20px" target="_blank" vertical-align="middle" border="solid 2px #343A40" text-align="center" href="#" font-family="Public Sans, Helvetica, Arial, sans-serif" font-size="13px" text-transform="uppercase" width="100%" padding="0px 0px 0px 0px"><span style="display: inline-block; padding: 5px 0px !important;">Toilet Training Tips</span></mj-button>
-      </mj-column>
-      <mj-column border="none" vertical-align="top" width="49%" padding="0px 0px 20px 0px">
-        <mj-button align="center" background-color="#FFEDC9" color="#343A40" font-weight="600" border-radius="6px" line-height="20px" target="_blank" vertical-align="middle" border="solid 2px #343A40" text-align="center" href="#" font-family="Public Sans, Helvetica, Arial, sans-serif" font-size="13px" text-transform="uppercase" width="100%" padding="0px 0px 0px 0px"><span style="display: inline-block; padding: 5px 0px !important;">Customer Dashboard</span></mj-button>
-      </mj-column>
-      <mj-column border="none" vertical-align="top" width="2%" padding="0px 0px 0px 0px"></mj-column>
-      <mj-column border="none" vertical-align="top" width="49%" padding="0px 0px 20px 0px">
-        <mj-button align="center" background-color="#FFEDC9" color="#343A40" font-weight="600" border-radius="6px" line-height="20px" target="_blank" vertical-align="middle" border="solid 2px #343A40" text-align="center" href="#" font-size="13px" font-family="Public Sans, Helvetica, Arial, sans-serif" text-transform="uppercase" width="100%" padding="0px 0px 0px 0px"><span style="display: inline-block; padding: 5px 0px !important;">Button Four</span></mj-button>
-      </mj-column>
-    </mj-section>
   </mj-body>
 </mjml>
