@@ -235,8 +235,8 @@
       <!-- Notification area -->
     </mj-raw>
     <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" padding="0px 16px 0px 16px">
-      <mj-column border="none" vertical-align="top" width="80%" background-color="#FFFFFF" padding="16px 16px 16px 16px">
-        <mj-text align="center" font-family="Public Sans" font-size="24px" font-weight="bold" font-style="normal" line-height="1" padding="0px 25px 0px 25px">Thank you for your order!</mj-text>
+      <mj-column border="none" vertical-align="top" width="80%" background-color="#FFFFFF" padding="12px">
+        <mj-text align="center" font-family="Public Sans" font-size="24px" font-weight="bold" font-style="normal" line-height="1" padding="0px 25px">Thank you for your order!</mj-text>
         <mj-text align="center" css-class="thank-you-text" font-family="Public Sans" font-size="18px" line-height="1" letter-spacing="0" font-weight="100" font-style="italic" padding="10px 0px 20px 0px">You will receive tracking updates via email and text.</mj-text>
       </mj-column>
     </mj-section>
@@ -271,7 +271,7 @@
               <!-- Your Details -->
               <table width="100%" style="border-collapse: separate; border-spacing: 0; border-radius: 10px !important; background: #fff !important; margin-bottom: 20px !important;">
                 <tr>
-                  <td style="padding:40px !important;">
+                  <td style="padding: 25px 20px !important;">
                     <h2 style="font-weight: 900 !important; font-size: 22px !important;">Your Details</h2>
                     <div>
                       <span class="text-lg" style="color: #000 !important; font-weight: 400 !important; font-size: 16px !important;">Michelle Paralexica</span>
@@ -288,7 +288,7 @@
               <!-- Delivery Address -->
               <table width="100%" style="border-collapse: separate; border-spacing: 0; border-radius: 10px !important; background: #fff !important; margin-bottom: 20px !important;">
                 <tr>
-                  <td style="padding:40px !important;">
+                  <td style="padding: 25px 20px !important;">
                     <h2 style="font-weight: 900 !important; line-height: 1 !important; font-size: 22px !important;">Delivery Address</h2>
                     <div>
                       <span style="color: #4B4B4B !important; font-weight: 400 !important; font-size: 16px !important; vertical-align: middle !important;">44 Francis Drake Street,</span>
@@ -321,13 +321,13 @@
               <!-- Your Order -->
               <table width="100%" style="border-collapse: separate; border-spacing: 0; border-radius: 10px !important; background: #fff !important; margin-bottom: 20px !important;">
                 <tr>
-                  <td style="padding:40px 40px 5px 40px !important;">
+                  <td style="padding:25px 25px 0 20px !important;">
                     <h2 style="text-transform: uppercase !important; font-weight: 900 !important; font-size: 22px !important;">Your Order</h2>
                   </td>
                 </tr>
                 <!-- Scatbags order [comments in code] -->
                 <tr>
-                  <td style="padding: 0 40px">
+                  <td style="padding: 0 20px">
                     <div style="display:inline-block !important; vertical-align: top !important; width: 30% !important;">
                       <!-- Image would be replaced with a dynamic version -->
                       <img style="max-width: 150px !important; width: 100% !important; border-radius: 8px !important;" src="https://strapi.excede.com.au/uploads/product_scatbags_7b4c30ef08.jpg" />
@@ -335,20 +335,20 @@
                     <div style="display:inline-block !important; width: 64% !important; padding-left: 4%;">
                       <div style="display:inline !important;">
                         <!-- Order summary block [this data changes based on the customer order] -->
-                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 16px !important; font-weight: normal !important; color: #4B4B4B !important;">2 boxes</div>
-                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 16px !important; font-weight: normal !important; color: #4B4B4B !important;">8 rolls</div>
-                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 16px !important; font-weight: normal !important; color: #4B4B4B !important;">120 bags</div>
-                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 16px !important; font-weight: normal !important; color: #4B4B4B !important;">Every 4 weeks</div>
+                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 14px !important; font-weight: normal !important; color: #4B4B4B !important;">2 boxes</div>
+                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 14px !important; font-weight: normal !important; color: #4B4B4B !important;">8 rolls</div>
+                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 14px !important; font-weight: normal !important; color: #4B4B4B !important;">120 bags</div>
+                        <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 14px !important; font-weight: normal !important; color: #4B4B4B !important;">Every 4 weeks</div>
                       </div>
                     </div>
-                    <hr style="margin: 24px 0 15px 0 !important;">
+                    <hr style="margin: 20px 0 0 0 !important;">
                     </hr>
                   </td>
                 </tr>
 
                 <!-- Quantity, shipping, totals summary block -->
                 <tr>
-                  <td style="padding: 0 40px 20px 40px !important;">
+                  <td style="padding: 20px !important;">
                     <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 16px !important; font-weight: normal !important; color: #4B4B4B !important;">
                       <span style="color: #343A40 !important; display: inline-block !important; width: 50% !important;">2 x $15.00</span>
                       <span style="color: #343A40 !important; display: inline-block !important; width: 47% !important; text-align: right !important;">
@@ -416,10 +416,10 @@
 
                 <!-- Bottom row [contains different messaging, CTA's] -->
                 <tr style="background-color: #FFF0B2 !important;">
-                  <td style="padding: 25px !important; border-radius: 0 0 10px 10px !important; text-align: center !important;">
-                    <h3 style="font-weight: 200 !important; font-size: 18px !important; line-height: 1.15 !important; font-style: italic !important; text-transform: none !important; color: #000000 !important;">Want regular Scatbag deliveries?</h3>
+                  <td style="padding: 25px 0 20px !important; border-radius: 0 0 10px 10px !important; text-align: center !important;">
+                    <h3 style="font-weight: 200 !important; font-size: 18px !important; line-height: 1.15 !important; font-style: italic !important; text-transform: none !important; color: #000000 !important;">Want regular Scatbag deliveries?</h3><br />
                     <!-- CTA link [Change as needed] -->
-                    <a style="display: inline-block !important; margin: 10px 0 !important; border: 3.5px solid #000000 !important; border-radius: 5px !important; padding: 16px 24px !important; color: #000000 !important; text-transform: uppercase !important; font-weight: 700 !important; font-size: 24px !important; text-decoration: none !important; background-color: #fff !important; justify-content: center !important;" href="#">Subscribe now</a>
+                    <a style="display: inline-block !important; margin: 10px 0 !important; border: 3.5px solid #000000 !important; border-radius: 5px !important; padding: 16px 24px !important; color: #000000 !important; text-transform: uppercase !important; font-weight: 700 !important; font-size: 20px !important; text-decoration: none !important; background-color: #fff !important; justify-content: center !important;" href="#">Subscribe now</a>
                   </td>
                 </tr>
 
@@ -443,11 +443,11 @@
           </a>
         </span>
 
-        <span style="display: block !important; margin-top: 30px !important; color: #FFFFFF !important; font-style: italic !important; font-size: 16px !important; text-align: center;">No longer want to receive these emails?</span>
-        <span style="display: block !important; color: #FFFFFF !important; font-style: italic !important; font-size: 16px !important; text-align: center; text-decoration: underline !important;">{% unsubscribe %}</span>
+        <span style="display: block !important; margin-top: 30px !important; color: #FFFFFF !important; font-style: italic !important; font-size: 14px !important; text-align: center;">No longer want to receive these emails?</span>
+        <span style="display: block !important; color: #FFFFFF !important; font-style: italic !important; font-size: 14px !important; text-align: center; text-decoration: underline !important;">{% unsubscribe %}</span>
 
         <!-- Links to website pages -->
-        <ul style="margin-top: 20px !important; color: #FFFFFF !important; font-style: italic !important; font-weight: 200 !important; line-height: 1.4 !important; font-size: 16px !important; display: block !important; text-align: center !important; padding: 0 !important;">
+        <ul style="margin-top: 20px !important; color: #FFFFFF !important; font-style: italic !important; font-weight: 200 !important; line-height: 1.4 !important; font-size: 14px !important; display: block !important; text-align: center !important; padding: 0 !important;">
           <li style="display: inline !important; padding-right: 10px !important;"><a href="#" style="text-decoration: underline !important; color: #FFFFFF !important;">FAQ</a></li>
           <li style="display: inline !important;">&#124;</li>
           <li style="display: inline !important; padding-left: 10px !important;"><a href="#" style="text-decoration: underline !important; color: #FFFFFF !important;">Contact</a></li>

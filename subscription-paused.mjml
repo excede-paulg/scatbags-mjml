@@ -55,7 +55,7 @@
       .thank-you-text div {
         color: #686868 !important;
         font-family: "Public Sans", "Helvetica", "Arial", sans-serif !important;
-        font-weight: 4100 !important;
+        font-weight: 400 !important;
         font-size: 18px !important;
         line-height: 1.25 !important;
         text-align: center !important;
@@ -196,6 +196,10 @@
         line-height: 16px !important;
         text-transform: uppercase !important;
       }
+
+      .order-paused {
+        opacity: 40% !important;
+      }
     </mj-style>
 
     <mj-breakpoint width="700px" />
@@ -228,7 +232,7 @@
     </mj-raw>
     <mj-section background-repeat="no-repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" border-radius="10px 10px 0 0" padding="0px 16px 0px 16px">
       <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
-        <mj-image align="center" width="55px" height="55px" src="https://strapi.excede.com.au/uploads/icon_card_9067d17f4e.png" css-class="icon-image" border="none" border-radius="50%" padding="30px 25px 10px 25px"></mj-image>
+        <mj-image align="center" width="55px" height="55px" src="https://strapi.excede.com.au/uploads/icon_pause_385915a821.png" css-class="icon-image" border="none" border-radius="50%" padding="30px 25px 10px 25px"></mj-image>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -236,25 +240,25 @@
     </mj-raw>
     <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" padding="0px 16px 0px 16px">
       <mj-column border="none" vertical-align="top" width="80%" background-color="#FFFFFF" padding="12px">
-        <mj-text align="center" font-family="Public Sans" font-size="24px" font-weight="bold" font-style="normal" line-height="1" padding="0px 25px">You have been refunded.</mj-text>
-        <mj-text align="center" css-class="thank-you-text" font-family="Public Sans" font-size="18px" line-height="1" letter-spacing="0" font-weight="100" font-style="italic" padding="10px 0px 20px 0px">Please note it can take up to a week for the funds to appear in your nominated account.</mj-text>
+        <mj-text align="center" font-family="Public Sans" font-size="24px" font-weight="bold" font-style="normal" line-height="1" padding="0px 25px">Your subscription has been paused.</mj-text>
+        <mj-text align="center" css-class="thank-you-text" font-family="Public Sans" font-size="18px" line-height="1" letter-spacing="0" font-weight="100" font-style="italic" padding="10px 0px 20px 0px">You can resume any time. If you have any questions our team are always here to help!</mj-text>
       </mj-column>
     </mj-section>
     <mj-raw>
       <!-- Order info -->
     </mj-raw>
-    <mj-section background-repeat="no-repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF" border-radius="0 0 10px 10px" padding="0px 20px 25px 20px">
+    <mj-section background-repeat="no-repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#FFFFFF"  border-radius="0 0 10px 10px" padding="0px 20px 15px 20px">
       <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 0px 0px 0px">
         <mj-text align="center" css-class="order-info-heading" padding="0px 0px 0px 0px">Order Number</mj-text>
         <mj-text align="center" css-class="order-info-text" line-height="1.2" padding="0px 0px 10px 0px"><strong>1000092</strong></mj-text>
       </mj-column>
       <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 0px 0px 0px">
-        <mj-text align="center" css-class="order-info-heading" padding="0px 0px 0px 0px">Refund Date</mj-text>
+        <mj-text align="center" css-class="order-info-heading" padding="0px 0px 0px 0px">Pause Date</mj-text>
         <mj-text align="center" css-class="order-info-text" line-height="1.2" padding="0px 0px 10px 0px"><strong>14/09/2023</strong></mj-text>
       </mj-column>
       <mj-column border="none" vertical-align="top" width="33.3333%" padding="0px 0px 0px 0px">
-        <mj-text align="center" css-class="order-info-heading" padding="0px 0px 0px 0px">Refund Total</mj-text>
-        <mj-text align="center" css-class="order-info-text" line-height="1.2" padding="0px 0px 10px 0px"><strong>$18.00</strong></mj-text>
+        <mj-text align="center" css-class="order-info-heading" padding="0px 0px 0px 0px">Subscription status</mj-text>
+        <mj-text align="center" css-class="order-info-text" line-height="1.2" padding="0px 0px 10px 0px"><span style="display: inline-block !important; clear: both !important; width: inherit !important; background-color: #D3ECFF; !important; padding: 8px 11px 6px 11px !important; margin: 0 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; text-transform: uppercase; color: #2F3338 !important;">Paused</span><span style="display: inline-block !important; clear: both !important; width: inherit !important; background-color: #FFE2C6; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; text-transform: uppercase; color: #2F3338 !important;">Refunded</span></mj-text>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -359,12 +363,12 @@
                       </span>
                     </div>
 
-                    <div style="text-transform: uppercase !important; line-height: 1.2 !important;  font-size: 16px !important; font-weight: normal !important; color: #4B4B4B !important;">
+                    <div style="text-transform: uppercase !important; line-height: 1.2 !important; font-size: 16px !important; font-weight: normal !important; color: #4B4B4B !important;">
                       <span style="display: inline-block !important; width: 50% !important;">Free Shipping</span>
                       <span style="display: inline-block !important; width: 47% !important; text-align: right !important;">$0.00</span>
                     </div>
 
-                    <div class="text-xl" style="line-height: 1.2 !important; font-size: 18px !important; font-weight: 600 !important; color: #4B4B4B !important;">
+                    <div style="line-height: 1.2 !important; font-size: 18px !important; font-weight: 600 !important; color: #4B4B4B !important;">
                       <span style="display: inline-block !important; width: 50% !important; text-transform: uppercase !important;">Total</span>
                       <span style="display: inline-block !important; width: 47% !important; text-align: right !important;">$30.00</span>
                     </div>
@@ -381,13 +385,13 @@
                       <!-- <span style="display: inline-block !important; float: right !important; clear: both !important; width: inherit !important; background-color: #DDEAD9 !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Delivered</span> -->
 
                       <!-- Paused -->
-                      <!-- <span style="display: inline-block !important; float: right !important; clear: both !important; width: inherit !important; background-color: #D3ECFF; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Paused</span> -->
+                      <span style="display: inline-block !important; float: right !important; clear: both !important; width: inherit !important; background-color: #D3ECFF; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Paused</span>
 
                       <!-- Cancelled -->
                       <!-- <span style="display: inline-block !important; float: right !important; clear: both !important; width: inherit !important; background-color: #FFDADA; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Cancelled</span> -->
 
                       <!-- Refunded -->
-                      <span style="display: inline-block !important;  float: right !important; clear: both !important;width: inherit !important; background-color: #FFE2C6; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Refunded</span>
+                      <span style="display: inline-block !important; float: right !important; clear: both !important;width: inherit !important; background-color: #FFE2C6; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Refunded</span>
 
                       <!-- Part-refunded -->
                       <!-- <span style="display: inline-block !important;  float: right !important; clear: both !important; width: inherit !important; background-color: #FFE2C6; !important; padding: 8px 11px 6px 11px !important; margin-bottom: 6px !important; border-radius: 20px; font-weight: 700 !important; font-size: 13px !important; color: #2F3338 !important;">Part-refunded</span> -->
@@ -416,10 +420,10 @@
 
                 <!-- Bottom row [contains different messaging, CTA's] -->
                 <tr style="background-color: #FFF0B2 !important;">
-                  <td style="padding: 25px 0 20px !important; border-radius: 0 0 10px 10px !important; text-align: center !important;">
-                    <h3 style="font-weight: 200 !important; font-size: 18px !important; line-height: 1.15 !important; font-style: italic !important; text-transform: none !important; color: #000000 !important;">Have any questions??</h3><br />
+                  <td style="padding: 25px 15px 20px 15px !important; border-radius: 0 0 10px 10px !important; text-align: center !important;">
+                    <h3 style="font-weight: 200 !important; font-size: 18px !important; line-height: 1.15 !important; font-style: italic !important; text-transform: none !important; color: #000000 !important;">Resume your subscription at any time.</h3><br />
                     <!-- CTA link [Change as needed] -->
-                    <a style="display: inline-block !important; margin: 10px 0 !important; border: 3.5px solid #000000 !important; border-radius: 5px !important; padding: 16px 24px !important; color: #000000 !important; text-transform: uppercase !important; font-weight: 700 !important; font-size: 20px !important; text-decoration: none !important; background-color: #fff !important; justify-content: center !important;" href="#">Contact us</a>
+                    <a style="display: inline-block !important; margin: 10px 0 !important; border: 3.5px solid #000000 !important; border-radius: 5px !important; padding: 16px 24px !important; color: #000000 !important; text-transform: uppercase !important; font-weight: 700 !important; font-size: 20px !important; text-decoration: none !important; background-color: #fff !important; justify-content: center !important;" href="#">Reactivate subscription</a>
                   </td>
                 </tr>
 
